@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Variables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="photo-filters">
+        <h1>Фотофильтры</h1>
+        <label>
+            <span>Цвет фона:</span>
+            <input type="color" value="#008c8c" class="bg-color">
+        </label>
+        <label>
+            <span>Размер фото:</span>
+            <input type="range" min="0" max="50" value="25" class="bg-size">
+        </label>
+        <label>
+            <span>Размытие:</span>
+            <input type="range" min="0" max="50" value="0" class="blur">
+        </label>
+        <label>
+            <span>Инверсия:</span>
+            <input type="range" min="0" max="50" value="0" class="inversion">
+        </label>
+        <label>
+            <span>Сепия:</span>
+            <input type="range" min="0" max="50" value="0" class="sepia">
+        </label>
+        <label>
+            <span>Насыщенность:</span>
+            <input type="range" min="0" max="50" value="50" class="saturation">
+        </label>
+        <label>
+                <span>Оттенок:</span>
+                <input type="range" min="0" max="50" value="0" class="shade">
+        </label>
+    </div>
+    <div class="image">
+        <img src="img/lenna.png" alt="picture">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
